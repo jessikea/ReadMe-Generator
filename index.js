@@ -12,22 +12,22 @@ const questions = [
     {
         type: "input",
         name: "github",
-        message: "What is your Github username?"
+        message: "What is your Github username? (Write N/A if this is not applicable)"
     },
     {
         type: "input",
         name: "email",
-        message: "What is your email?"
+        message: "What is your email? (Write N/A if this is not applicable)"
     },
     {
         type: "input",
         name: "project",
-        message: "What is the name of your project?"
+        message: "What is the name of your project? (Write N/A if this is not applicable)"
     },
     {
         type: "input",
         name: "description",
-        message: "Give a description of your project"
+        message: "Give a description of your project. (Write N/A if this is not applicable)"
     },
 
     {
@@ -45,7 +45,7 @@ const questions = [
     {
         type: "input",
         name: "features",
-        message: "Describe features of the project",
+        message: "Describe features of the project (Write N/A if this is not applicable)",
 
     },
     {
@@ -57,7 +57,7 @@ const questions = [
     {
         type: "input",
         name: "howToContribute",
-        message: "Describe how other developers can contribute to your project in the future.",
+        message: "Describe how other developers can contribute to your project in the future.(Write N/A if this is not applicable)",
 
     }
 ];

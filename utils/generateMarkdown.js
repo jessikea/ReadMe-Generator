@@ -11,8 +11,34 @@
 // function renderLicenseSection(license) { }
 
 // TODO: Create a function to generate markdown for README
+
+function renderLicenseBadge(l){
+  if (l.license == 'MIT'){
+    badge = `[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://img.shields.io/badge/license-MIT-blue)`,
+      badgeLink = 'https://www.mit.edu/~amini/LICENSE.md'
+  }
+  else if (l.license == 'APACHE 2.0') {
+    badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+      badgeLink = 'https://www.apache.org/licenses/LICENSE-2.0'
+  }
+  else if (l.license == 'BSD 3') {
+    badge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`,
+      badgeLink = 'https://opensource.org/licenses/BSD-3-Clause'
+  }
+  else if (l.license == 'GPL 3.0') {
+    badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`,
+      badgeLink = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
+  } else { badge = '', badgeLink = '' }
+  return badge, badgeLink
+}
+
+
+
 function generateMarkdown(answers) {
+  renderLicenseBadge(answers);
+  
   return `# ${answers.project}
+  ${badge}
   ## Description
   ${answers.description}
   
@@ -32,13 +58,9 @@ function generateMarkdown(answers) {
 
   ## Installation
   
-  What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
   
   ## Usage
   
-  Provide instructions and examples for use. Include screenshots as needed.
-  
-
   
   ## Credits
   
@@ -46,17 +68,13 @@ function generateMarkdown(answers) {
   
   ## License
   
-  The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
   
   ---
   
-  🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
   
   ## Badges
   
-  ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
   
-  Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
   
   ## Features
   ${answers.features}
