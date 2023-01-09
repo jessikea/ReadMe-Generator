@@ -49,11 +49,10 @@ function generateMarkdown(answers) {
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [Contributors](#Credits)
   - [Features](#Features)
   - [Tests](#Tests)
-  - [How to Contribute](#How To Contribute)
+  - [How to Contribute](#Contribute)
   - [License](#License)
 
   ## Installation
@@ -69,8 +68,6 @@ function generateMarkdown(answers) {
   ## License
   
   
-  ---
-  
   
   ## Badges
   
@@ -79,7 +76,7 @@ function generateMarkdown(answers) {
   ## Features
   ${answers.features}
   
-  ## How to Contribute
+  ## Contribute
   ${answers.howToContribute}
   
   ## Tests
