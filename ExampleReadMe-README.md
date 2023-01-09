@@ -1,7 +1,7 @@
-# Example Read Me
+# ExampleReadME
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://img.shields.io/badge/license-MIT-blue)
   ## Description
-  N/!
+  N/A
   
   
   ## Table of Contents (Optional)
@@ -24,7 +24,7 @@
   
   ## Credits
   
-  
+  N/A
   
   ## License
   
@@ -35,10 +35,10 @@
   
   
   ## Features
-  
+  N/A
   
   ## Contribute
-  
+  N/A
   
   ## Tests
-  
+  N/A

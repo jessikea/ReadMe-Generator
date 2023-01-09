@@ -15,7 +15,7 @@ This project is a ReadMe generator that will prompt the user with questions and 
 
     ## Installation
   To install, follow the below instructions:
-  - In your local terminal, gitbash, clone the repository into your local machine. Type" git clone git@github.com:jessikea/ReadMe-Generator.git) 
+  - In your local terminal, gitbash, clone the repository into your local machine. Type " git clone git@github.com:jessikea/ReadMe-Generator.git)"
 
     ## Usage
   Instructions for use
@@ -23,7 +23,8 @@ This project is a ReadMe generator that will prompt the user with questions and 
   - Open file in integrated terminal
   - Type 'node index' to run file
 
-  ![demo video]
+  ![demo video](/assets/demoReadMeGenerator.mp4)
+
   github repo: https://github.com/jessikea/ReadMe-Generator
  
   ## License
@@ -41,5 +42,8 @@ This project is a ReadMe generator that will prompt the user with questions and 
   N/A
     
   ## Questions
-  If you have any questions, please contact: Jessica Tran 
-  Github: Jessikea
+  If you have any questions, please contact: 
+  
+  Jessica Tran 
+  Github: jessikea
+  Email: ...
