@@ -2,8 +2,8 @@
 
 #Description
 
+A quality ReadME is a staple in getting started with coding. A ReadME will provide all information regarding the project and give others a introduction to how your project works, what work went into it, how it can be developed, and much more info. 
 This project is a ReadMe generator that will prompt the user with questions and takes the user's answers as input for the generation of the ReadMe based off a template. 
-
   ## Table of Contents 
   
   - [Installation](#installation)
